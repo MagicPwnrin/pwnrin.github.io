@@ -65,6 +65,16 @@ pre {
   transform: translateY(-20px);
   transition: all 0.4s;
 }
+.issues-body {
+  padding: 2em 1em;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1314px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.4s;
+}
 .hljs {
   background: none !important;
 }

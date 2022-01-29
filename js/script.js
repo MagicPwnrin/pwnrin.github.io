@@ -1,6 +1,11 @@
 (function ($) {
   console.log('© Theme-Vexo | https://github.com/yanm1ng/hexo-theme-vexo')
   var app = $('.app-body')
+  if (app.length == 0){
+    app = $('.issues-body')
+    // console.log(app)
+  }
+  // console.log(app)
   var header = $('.header')
   var banner = document.getElementById('article-banner') || false
   var about = document.getElementById('about-banner') || false
