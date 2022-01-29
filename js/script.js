@@ -5,6 +5,10 @@
     app = $('.issues-body')
     // console.log(app)
   }
+  if (app.length == 0){
+    app = $('.about-body')
+    // console.log(app)
+  }
   // console.log(app)
   var header = $('.header')
   var banner = document.getElementById('article-banner') || false
