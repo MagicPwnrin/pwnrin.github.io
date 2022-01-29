@@ -1,2 +1,0 @@
-# Pwnrin
-NorthSea's Blog
