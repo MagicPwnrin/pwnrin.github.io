@@ -154,6 +154,15 @@
 </thead>
 <tbody><tr>
 <td align="center">1</td>
+<td align="center">Linux</td>
+<td align="center">Kernel</td>
+<td align="center">Kirin</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td>Linux: Race with xxxxxxx and xxxxxxx leading to use-after-free</td>
+</tr>
+<tr>
+<td align="center">2</td>
 <td align="center">Open-Xchange</td>
 <td align="center">Dovecot</td>
 <td align="center">Kirin</td>
@@ -162,85 +171,103 @@
 <td>Dovecot: oauth2 JWT local validation path traversal</td>
 </tr>
 <tr>
-<td align="center">2</td>
-<td align="center">Zoom</td>
-<td align="center">Keybase</td>
-<td align="center">luckyu/Kirin</td>
-<td align="center">Disclosed</td>
-<td align="center">2021 - 05</td>
-<td>Keybase: No-check for the length of filename may cause a DOS problem in Windows</td>
-</tr>
-<tr>
 <td align="center">3</td>
-<td align="center">Linux</td>
-<td align="center">Kernel</td>
-<td align="center">Kirin</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td>Linux: Race with xxxxxx and xxxxxx leading to use-after-free</td>
-</tr>
-<tr>
-<td align="center">4</td>
-<td align="center">Linux</td>
-<td align="center">Kernel</td>
-<td align="center">Kirin</td>
-<td align="center">-</td>
-<td align="center">-</td>
-<td>Linux: Race Condition in xxxxxx leading to use-after-free</td>
-</tr>
-<tr>
-<td align="center">5</td>
 <td align="center">Apple</td>
 <td align="center">SoftwareUpdate</td>
 <td align="center">Kirin</td>
 <td align="center">Disclosed</td>
 <td align="center">2021 - 08</td>
-<td>suhelper: Two LPE issues found in suhelper’s MIG server</td>
+<td>suhelper: Two LPE issues found in suhelper’s MIG subsystem</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Apple</td>
+<td align="center">WebKit</td>
+<td align="center">Kirin</td>
+<td align="center">Disclosed</td>
+<td align="center">2021 - 11</td>
+<td>WebKit: Two heap-use-after-free in xxxxxxx</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Apple</td>
+<td align="center">WebKit</td>
+<td align="center">Kirin</td>
+<td align="center">Disclosed</td>
+<td align="center">2021 - 12</td>
+<td>WebKit: Two heap-use-after-free in AccessKey Event</td>
 </tr>
 <tr>
 <td align="center">6</td>
-<td align="center">Apple</td>
-<td align="center">WebKit</td>
-<td align="center">Kirin</td>
-<td align="center">Fixed</td>
-<td align="center">2021 - 11</td>
-<td>WebKit: Two heap-use-after-free in xxxxxx</td>
-</tr>
-<tr>
-<td align="center">7</td>
-<td align="center">Apple</td>
-<td align="center">WebKit</td>
-<td align="center">Kirin</td>
-<td align="center">Fixed</td>
-<td align="center">2021 - 12</td>
-<td>WebKit: Two heap-use-after-free in xxxxxx</td>
-</tr>
-<tr>
-<td align="center">8</td>
 <td align="center">Mozilla</td>
 <td align="center">Firefox</td>
 <td align="center">Kirin</td>
 <td align="center">Duplicate</td>
 <td align="center">-</td>
-<td>Firefox: heap-use-after-free in xxxxxx</td>
+<td>Firefox: heap-use-after-free in OffscreenCanvasDisplayHelper</td>
 </tr>
 <tr>
-<td align="center">9</td>
+<td align="center">7</td>
 <td align="center">Mozilla</td>
 <td align="center">Firefox</td>
 <td align="center">Kirin</td>
-<td align="center">Fixed</td>
+<td align="center">Disclosed</td>
 <td align="center">2022 - 01</td>
-<td>Firefox: heap-use-after-free in xxxxxx</td>
+<td>Firefox: heap-use-after-free in DocumentL10n::TranslateDocument</td>
 </tr>
 <tr>
-<td align="center">10</td>
+<td align="center">8</td>
 <td align="center">Microsoft</td>
 <td align="center">Windows</td>
 <td align="center">luckyu</td>
 <td align="center">Confirmed</td>
 <td align="center">2022 - 02</td>
-<td>Windows: xxxxxx EoP</td>
+<td>Windows: xxxxxxx EoP</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Linux</td>
+<td align="center">Kernel</td>
+<td align="center">Kirin</td>
+<td align="center">Disclosed</td>
+<td align="center">2022 - 03</td>
+<td>Linux: Race Condition in PCM ioctls</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">Mozilla</td>
+<td align="center">Firefox</td>
+<td align="center">Kirin</td>
+<td align="center">Confirmed</td>
+<td align="center">2022 - 04</td>
+<td>Firefox: heap-use-after-free in xxxxxxx</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">Mozilla</td>
+<td align="center">Firefox</td>
+<td align="center">Kirin</td>
+<td align="center">Fixed</td>
+<td align="center">2022 - 05</td>
+<td>Firefox: out-of-bounds read/write in xxxxxxx</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Microsoft</td>
+<td align="center">Kernel</td>
+<td align="center">luckyu</td>
+<td align="center">Confirmed</td>
+<td align="center">2022 - 05</td>
+<td>Windows Kernel: use-after-free in xxxxxxx</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">Zoom</td>
+<td align="center">-</td>
+<td align="center">Kirin</td>
+<td align="center">Confirmed</td>
+<td align="center">2022 - 06</td>
+<td>Security issues found in xxxxxxx</td>
 </tr>
 </tbody></table>
 </section>
