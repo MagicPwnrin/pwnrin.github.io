@@ -8,4 +8,4 @@ The security researchers living in NorthSea.
 - [Aryb1n](https://twitter.com/aryb1n)
 - ......
 
-<div align=right><img src="/images/NorthSea.jpg" width=360 height=360></div>
+<img src="/images/NorthSea.jpg" width=360 height=360>
