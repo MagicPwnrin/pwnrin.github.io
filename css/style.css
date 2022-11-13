@@ -15,7 +15,7 @@ body {
   height: 100%;
   margin: 0;
   color: #202020;
-  font-size: 16px;
+  font-size: 17px;
 }
 @media screen and (max-width: 480px) {
   body {
@@ -525,7 +525,7 @@ h2.article-head {
 .markdown-content code,
 .article-summary code {
   font-family: 'Roboto Mono', Monaco, courier, monospace;
-  font-size: 15px;
+  font-size: 14px;
 }
 @media screen and (max-width: 480px) {
   .markdown-content pre,
